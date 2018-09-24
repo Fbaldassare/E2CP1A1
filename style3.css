@@ -15,16 +15,30 @@
 .color-esp2 {
 	background-color: rgb( 255, 196, 0);
 	height: 50%;
+	position: static;
 }
 
 .color-den1 {
-
+	height: 42%;
+	background-color:rgb( 199, 4, 44);
+	z-index: 0;
+	position: static;
 }
 
 .color-den2 {
-	
+	height: 16%;
+	background-color: rgb( 255, 255, 255);
+	z-index: 0;
+	position: static;
 }
 
 .color-den3 {
-	
+	height: 100%;
+	width: 11.76%;
+	background-color: rgb( 255, 255, 255);
+	float: left;
+	z-index: 1;	
+	position: relative;
+	top: -200px;
+	left: 29.79%;
 }
