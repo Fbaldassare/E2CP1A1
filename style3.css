@@ -5,6 +5,7 @@
 	height: 200px;
 	display: inline-block;
 	margin: 50px 100px;
+	position: relative;
 }
 
 .color-esp1 {
@@ -41,4 +42,52 @@
 	position: relative;
 	top: -200px;
 	left: 29.79%;
+}
+
+.color-emi1 {
+	height: 33.33%;
+	background-color: green;
+	z-index: 0;
+}
+
+.color-emi2{
+	height: 33.33%;
+	background-color: white;
+	z-index: 0;
+	position: relative;
+}
+
+.color-emi3{
+	height: 33.33%;
+	background-color: black;
+	z-index: 0;
+	position: relative;
+}
+.color-emi4{
+	height: 100%;
+	width: 30%;
+	float: left;
+	background-color: red;
+	z-index: 1;
+	position: relative;
+	top: -200px;
+}
+
+.color-jap1 {
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+	background-color: rgb( 255, 255, 255);
+	position: absolute;
+}
+
+.color-jap2 {
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	background-color: rgb( 188, 0, 45);
+	z-index: 1;
+	clear: left;
+	position: relative;
+	margin: 40px auto 40px auto;
 }
