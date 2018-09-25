@@ -1,0 +1,15 @@
+.uno {
+	position: absolute; 
+}
+
+.dos {
+	position: relative;
+	float: left;
+}
+
+.dos img{
+	width: 20%;
+	height: 20%;
+	margin-top: 150px;
+	margin-left: 153px;
+}
