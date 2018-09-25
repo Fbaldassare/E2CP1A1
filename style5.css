@@ -1,0 +1,21 @@
+.contenedor-1{
+	float: left;
+	position: absolute;
+	z-index: 1;
+}
+
+.contenedor-1 img{
+	margin-top:35px;
+	margin-left: 23px;
+	width: 200px;
+	height: 200px;
+}
+
+
+.contenedor-2{
+	float: left;
+	position: relative;
+	z-index: 0.3;
+	margin-top: 0px;
+}
+
